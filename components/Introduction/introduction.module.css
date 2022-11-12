@@ -1,0 +1,56 @@
+.container {
+  position: relative;
+  width: 64.375rem;
+  margin: 0rem auto;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.skillIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.3125rem;
+  height: 4.3125rem;
+  border: 0.0625rem solid #6b6b6b;
+  border-radius: 0.5rem;
+  background: #ffffff;
+}
+
+.eventRecords {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50rem;
+  height: 7rem;
+  background: #ffffff;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 1.25rem;
+  left: 11.5%;
+  top: 26.25rem;
+}
+
+.recordContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.recordContainer:not(:last-child) {
+  border-right: 1px solid #6B6B6B;
+}
+
+.record {
+  color: #86B6D3;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.recordName {
+  font-size: 1rem;
+  color: #6B6B6B;
+}

@@ -6,6 +6,7 @@ export default function Shaded({
   color = '#D9EAF2',
   shadowColor = '#86B6D3',
   shadowTop = '0.5rem',
+  contentPadding = '1rem',
   customStyles = {}
 }) {
   return (
@@ -13,23 +14,31 @@ export default function Shaded({
       {
         type === 'button'
           ? (
-            <button className={styles.shaded} style={{ background: color }}>
+            <button
+              className={styles.shaded}
+              style={{ background: color, padding: contentPadding }}
+            >
               { children }
             </button>
           )
           : (
-            <div className={styles.shaded} style={{ background: color }}>
+            <div
+              className={styles.shaded}
+              style={{ background: color, padding: contentPadding }}
+            >
               { children }
             </div>
           )
       }
       <div
         className={styles.shadedShadow}
-        style={{ background: shadowColor, top: shadowTop }}
+        style={{ background: shadowColor, top: shadowTop, padding: contentPadding }}
       >
         { children }
       </div>
-      <div className={styles.hideContent}>{ children }</div>
+      <div className={styles.hideContent} style={{ padding: contentPadding }}>
+        { children }
+      </div>
     </div>
   )
 }
