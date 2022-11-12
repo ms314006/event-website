@@ -1,21 +1,7 @@
-import { Roboto } from '@next/font/google'
 import '../styles/globals.css'
 
-const roboto = Roboto({
-  weight: '400',
-})
-
 function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      <style jsx global>{`
-        html {
-          font-family: ${roboto.style.fontFamily};
-        }
-      `}</style>
-      <Component {...pageProps} />
-    </>
-  );
+  return <Component {...pageProps} />
 }
 
 export default MyApp
