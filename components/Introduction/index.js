@@ -22,34 +22,34 @@ export default function Introduction() {
         className={`${styles.skillIcon} ${styles.absolute}`}
         style={zIndexTop}
       >
-        <Image src="/assets/css3.png" alt="css3" width={42} height={42} />
+        <Image src="./assets/css3.png" alt="css3" width={42} height={42} />
       </div>
       <div
         className={`${styles.skillIcon} ${styles.absolute}`}
         style={{ left: '74%', top: 140, ...zIndexTop }}
       >
-        <Image src="/assets/html5.png" alt="html5" width={42} height={42} />
+        <Image src="./assets/html5.png" alt="html5" width={42} height={42} />
       </div>
       <div
         className={`${styles.skillIcon} ${styles.absolute}`}
         style={{ left: '85.5%', top: 40, ...zIndexTop }}
       >
-        <Image src="/assets/xd.png" alt="xd" width={42} height={42} />
+        <Image src="./assets/xd.png" alt="xd" width={42} height={42} />
       </div>
       <div
         className={`${styles.skillIcon} ${styles.absolute}`}
         style={{ left: '96.5%', top: 296, ...zIndexTop }}
       >
-        <Image src="/assets/js.png" alt="js" width={42} height={42} />
+        <Image src="./assets/js.png" alt="js" width={42} height={42} />
       </div>
       <div
         className={`${styles.skillIcon} ${styles.absolute}`}
         style={{ left: '12.5%', top: 300, ...zIndexTop }}
       >
-        <Image src="/assets/figma.png" alt="figma" width={42} height={42} />
+        <Image src="./assets/figma.png" alt="figma" width={42} height={42} />
       </div>
       <Image
-        src="/assets/dashed1.png"
+        src="./assets/dashed1.png"
         alt="dashed1"
         width={280}
         height={127}
@@ -57,7 +57,7 @@ export default function Introduction() {
         style={{ left: '2%', top: 32 }}
       />
       <Image
-        src="/assets/dashed2.png"
+        src="./assets/dashed2.png"
         alt="dashed2"
         width={119}
         height={62}
@@ -65,7 +65,7 @@ export default function Introduction() {
         style={{ left: '77%', top: 110 }}
       />
       <Image
-        src="/assets/dashed3.png"
+        src="./assets/dashed3.png"
         alt="dashed3"
         width={92}
         height={223}
@@ -73,7 +73,7 @@ export default function Introduction() {
         style={{ left: '91%', top: 70 }}
       />
       <Image
-        src="/assets/dashed4.png"
+        src="./assets/dashed4.png"
         alt="dashed4"
         width={146}
         height={140}
@@ -81,7 +81,7 @@ export default function Introduction() {
         style={{ left: '85.5%', top: 350 }}
       />
       <Image
-        src="/assets/dashed5.png"
+        src="./assets/dashed5.png"
         alt="dashed5"
         width={1}
         height={58}

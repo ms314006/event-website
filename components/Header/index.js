@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className={styles.container}>
       <Image
-        src="/assets/logo.png"
+        src="./assets/logo.png"
         alt="Logo"
         className={styles.logo}
         width={150}
