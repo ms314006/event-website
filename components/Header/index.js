@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import ShadedButton from '../ShadedButton'
+import Shaded from '../Shaded'
 import logo from '../../public/assets/logo-lg.png'
 import styles from './Header.module.css'
 
@@ -20,10 +20,10 @@ export default function Header() {
         <li>求職專區</li>
       </ul>
       <div>
-        <ShadedButton customStyles={{ marginRight: 16 }}>
+        <Shaded type="button" customStyles={{ marginRight: 16 }}>
           註冊報名
-        </ShadedButton>
-        <ShadedButton>登入</ShadedButton>
+        </Shaded>
+        <Shaded>登入</Shaded>
       </div>
     </div>
   )

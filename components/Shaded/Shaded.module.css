@@ -1,11 +1,11 @@
-.shadedButtonWrap {
+.shadedWrap {
   position: relative;
   width: max-content;
 }
 
-.shadedButton,
-.shadedButtonShadow,
-.hideButtonContent {
+.shaded,
+.shadedShadow,
+.hideContent {
   width: max-content;
   border: 0.0625rem solid #000000;
   border-radius: 0.6rem;
@@ -13,13 +13,13 @@
   padding: 1rem;
 }
 
-.shadedButton {
+.shaded {
   background: #D9EAF2;
   position: absolute;
   z-index: 2;
 }
 
-.shadedButtonShadow {
+.shadedShadow {
   top: 0.5rem;
   background: #86B6D3;
   position: absolute;
