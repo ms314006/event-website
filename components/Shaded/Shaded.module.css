@@ -14,14 +14,11 @@
 }
 
 .shaded {
-  background: #D9EAF2;
   position: absolute;
   z-index: 2;
 }
 
 .shadedShadow {
-  top: 0.5rem;
-  background: #86B6D3;
   position: absolute;
   z-index: 1;
 }
