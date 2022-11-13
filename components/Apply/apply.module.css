@@ -17,6 +17,8 @@
 .uiDesignerHead,
 .fontEndEngineerHead {
   position: absolute;
+  width: 15rem;
+  height: 15rem;
   top: 25rem;
   z-index: 5;
 }
@@ -27,4 +29,25 @@
 
 .fontEndEngineerHead {
   right: 5rem;
+}
+
+@media all and (max-width: 880px) {
+  .container {
+    width: 98vw;
+    height: 35rem;
+  }
+  .uiDesignerHead,
+  .fontEndEngineerHead {
+    width: 10rem;
+    height: 10rem;
+    top: 20rem;
+  }
+
+  .uiDesignerHead  {
+    left: 1rem;
+  }
+  
+  .fontEndEngineerHead {
+    right: 1rem;
+  }
 }

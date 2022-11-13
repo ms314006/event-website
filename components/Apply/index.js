@@ -7,26 +7,28 @@ export default function Apply() {
     <div className={styles.container}>
       <Shaded
         type="button"
-        width="35rem"
+        width="28rem"
         contentPadding="6rem"
         shadowTop="1rem"
       >
         <div className={styles.apply}>立即報名</div>
       </Shaded>
-      <Image
-        src="./assets/uiDesignerHead.png"
-        alt="uiDesignerHead"
-        width={238}
-        height={234}
-        className={styles.uiDesignerHead}
-      />
-      <Image
-        src="./assets/fontEndEngineerHead.png"
-        alt="fontEndEngineerHead"
-        width={238}
-        height={234}
-        className={styles.fontEndEngineerHead}
-      />
+      <div className={styles.uiDesignerHead}>
+        <Image
+          src="./assets/uiDesignerHead.png"
+          alt="uiDesignerHead"
+          layout='fill'
+          objectFit='contain'
+        />
+      </div>
+      <div className={styles.fontEndEngineerHead}>
+        <Image
+          src="./assets/fontEndEngineerHead.png"
+          alt="fontEndEngineerHead"
+          layout='fill'
+          objectFit='contain'
+        />
+      </div>
     </div>
   )
 }
