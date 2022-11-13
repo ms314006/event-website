@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50rem;
+  height: 50rem;
+  margin: 0 auto;
+}
+
+.selectionContainer,
+.awardContainer,
+.twoAwardsRow {
+  margin: 2rem 0;
+}
+
+.selectionContainer,
+.awardContainer {
+  position: relative;
+}
+
+.twoAwardsRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.awardNameContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: -1rem;
+  z-index: 10;
+}
+
+.selectionName,
+.awardName {
+  background: #C0B592;
+  border: 0.0625rem solid #000000;
+  border-radius: 0.625rem;
+  color: #ffffff;
+  padding: 0.75rem;
+  width: max-content;
+}
+
+.selectionName {
+  background: #bf9d96;
+}
+
+.awardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.award {
+  font-size: 0.9375rem;
+  margin-bottom: 0.75rem;
+}
+
+.awardCount {
+  font-size: 0.75rem;
+}
