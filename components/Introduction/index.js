@@ -115,7 +115,7 @@ export default function Introduction() {
           width="90vw"
           customStyles={{ margin: '0rem auto', marginBottom: '2rem', textAlign: 'center' }}
         >
-          <Image src={title} alt="title" />
+          <Image src={title} alt="title" width={280} height={32} />
         </Shade>
         <Shade
           shadowTop="1rem"
@@ -123,7 +123,7 @@ export default function Introduction() {
           width="95vw"
           customStyles={{ margin: '0rem auto', marginBottom: '2rem', textAlign: 'center' }}
         >
-          <Image src={eventName} alt="eventName" />
+          <Image src={eventName} alt="eventName" width={187} height={27} />
         </Shade>
         <div className={styles.eventRecords}>
           <div className={styles.recordContainer}>
