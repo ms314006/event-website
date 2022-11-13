@@ -1,0 +1,20 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 50rem;
+}
+
+.uiDesigner,
+.frontEndEngineer {
+  position: absolute;
+  width: 55%;
+  height: 100%;
+}
+
+.uiDesigner {
+  left: 2rem;
+}
+
+.frontEndEngineer {
+  right: 0;
+}
