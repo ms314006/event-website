@@ -7,7 +7,8 @@ import Regulation from '../components/Regulation';
 import AwardAndSelection from '../components/AwardAndSelection';
 import Divider from '../components/Divider';
 import Sharer from '../components/Sharer';
-import styles from '../styles/Home.module.css'
+import FAQ from '../components/FAQ';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <AwardAndSelection />
       <Divider />
       <Sharer />
+      <FAQ />
     </div>
   )
 }
