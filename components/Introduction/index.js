@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Shade from '../Shaded';
+import SkillIconWrap from '../SkillIconWrap';
 import title from '../../public/assets/title.png'
 import eventName from '../../public/assets/eventName.png'
 import styles from './introduction.module.css'
@@ -8,36 +9,21 @@ export default function Introduction() {
   const zIndexTop = { zIndex: 5 };
   return (
     <div className={styles.container}>
-      <div
-        className={`${styles.skillIcon} ${styles.absolute}`}
-        style={zIndexTop}
-      >
+      <SkillIconWrap border>
         <Image src="./assets/css3.png" alt="css3" width={42} height={42} />
-      </div>
-      <div
-        className={`${styles.skillIcon} ${styles.absolute}`}
-        style={{ left: '74%', top: 140, ...zIndexTop }}
-      >
+      </SkillIconWrap>
+      <SkillIconWrap border position={{ left: '74%', top: 140 }}>
         <Image src="./assets/html5.png" alt="html5" width={42} height={42} />
-      </div>
-      <div
-        className={`${styles.skillIcon} ${styles.absolute}`}
-        style={{ left: '85.5%', top: 40, ...zIndexTop }}
-      >
+      </SkillIconWrap>
+      <SkillIconWrap border position={{ left: '85.5%', top: 40 }}>
         <Image src="./assets/xd.png" alt="xd" width={42} height={42} />
-      </div>
-      <div
-        className={`${styles.skillIcon} ${styles.absolute}`}
-        style={{ left: '96.5%', top: 296, ...zIndexTop }}
-      >
+      </SkillIconWrap>
+      <SkillIconWrap border position={{ left: '96.5%', top: 296 }}>
         <Image src="./assets/js.png" alt="js" width={42} height={42} />
-      </div>
-      <div
-        className={`${styles.skillIcon} ${styles.absolute}`}
-        style={{ left: '12.5%', top: 300, ...zIndexTop }}
-      >
-        <Image src="./assets/figma.png" alt="figma" width={42} height={42} />
-      </div>
+      </SkillIconWrap>
+      <SkillIconWrap border position={{ left: '12.5%', top: 300 }}>
+        <Image src="./assets/figma.png" alt="js" width={42} height={42} />
+      </SkillIconWrap>
       <Image
         src="./assets/dashed1.png"
         alt="dashed1"
