@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50rem;
+  height: 45rem;
+  margin: 0 auto;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3.75rem;
+}
+
+.titleChar {
+  font-size: 2.25rem;
+}
+
+.contentWrap {
+  width: 100%;
+  margin-top: 6rem;
+  position: relative;
+}
+
+.pinRight,
+.pinLeft {
+  width: 3.5rem;
+  height: 1.315rem;
+  border-radius: 5px;
+  background: #6B6B6B;
+  color: #000000;
+  position: absolute;
+  top: -0.6rem;
+  z-index: 5;
+}
+
+.linkDashed {
+  position: absolute;
+  z-index: 5;
+  top: 100px;
+  left: 19%;
+}
+
+.pinRight {
+  right: 4rem;
+}
+
+.pinLeft {
+  left: 4rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.stepName {
+  letter-spacing: 0.25rem;
+  color: #ffffff;
+}
+
+.stepContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 16.65rem;
+  z-index: 10;
+}
+
+.stepPeriod {
+  line-height: 1.5rem;
+  margin: 1.5rem 0;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.summary {
+  text-align: center;
+  margin-top: 3.85rem;
+}
+
+.summary::before {
+  content: '';
+  border-radius: 0.25rem;
+  border: 0.25rem solid #6B6B6B;
+  margin-right: 0.5rem;
+}
