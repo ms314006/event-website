@@ -10,7 +10,7 @@ export default function Introduction() {
   return (
     <>
       <div className={styles.container}>
-        <SkillIconWrap border>
+        <SkillIconWrap border position={{ left: 0, top: 0 }}>
           <Image src="./assets/css3.png" alt="css3" width={42} height={42} />
         </SkillIconWrap>
         <SkillIconWrap border position={{ left: '74%', top: 140 }}>
