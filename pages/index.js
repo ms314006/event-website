@@ -8,6 +8,7 @@ import AwardAndSelection from '../components/AwardAndSelection';
 import Divider from '../components/Divider';
 import Sharer from '../components/Sharer';
 import FAQ from '../components/FAQ';
+import Apply from '../components/Apply';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <Divider />
       <Sharer />
       <FAQ />
+      <Apply />
     </div>
   )
 }
