@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 3.5rem;
+  background: #D9EAF2;
+  color: #86B6D3;
+}

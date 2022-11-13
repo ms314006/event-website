@@ -9,6 +9,7 @@ import Divider from '../components/Divider';
 import Sharer from '../components/Sharer';
 import FAQ from '../components/FAQ';
 import Apply from '../components/Apply';
+import Footer from '../components/Footer';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
       <Sharer />
       <FAQ />
       <Apply />
+      <Footer />
     </div>
   )
 }
