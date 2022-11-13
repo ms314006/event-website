@@ -53,6 +53,9 @@ export default function Sharer() {
           接力分享
         </span>
       </div>
+      <div className={styles.mobileTitleContainer}>
+        <span>各界大神接力分享</span>
+      </div>
       <div className={styles.sharers}>
         {
           sharers.map((sharer) => (
