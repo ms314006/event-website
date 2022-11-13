@@ -9,6 +9,7 @@ export default function Shaded({
   shadowTop = '0.5rem',
   shadowLeft = shadowTop,
   contentPadding = '1rem',
+  width = 'max-content',
   customStyles = {}
 }) {
   return (
@@ -18,7 +19,7 @@ export default function Shaded({
           ? (
             <button
               className={styles.shaded}
-              style={{ background: color, padding: contentPadding }}
+              style={{ background: color, padding: contentPadding, width }}
             >
               { children }
             </button>
@@ -26,7 +27,7 @@ export default function Shaded({
           : (
             <div
               className={styles.shaded}
-              style={{ background: color, padding: contentPadding }}
+              style={{ background: color, padding: contentPadding, width }}
             >
               { children }
             </div>
@@ -38,13 +39,13 @@ export default function Shaded({
           background: shadowColor,
           top: shadowTop,
           left: italic ? shadowLeft : 0,
-          padding:
-          contentPadding,
+          padding: contentPadding,
+          width
         }}
       >
         { children }
       </div>
-      <div className={styles.hideContent} style={{ padding: contentPadding }}>
+      <div className={styles.hideContent} style={{ padding: contentPadding, width }}>
         { children }
       </div>
     </div>
