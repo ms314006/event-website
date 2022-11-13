@@ -38,6 +38,8 @@ export default function MainTheme() {
             height={90}
           />
         </FactoryCard>
+      </div>
+      <div className={styles.themes}>
         <ThemeCard
           themeColor="#dceaf1"
           textColor="#86B6D3"
