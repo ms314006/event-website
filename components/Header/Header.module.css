@@ -33,7 +33,8 @@
   }
 
   .mobileContainer {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: space-between;
     width: 95vw;
@@ -43,11 +44,20 @@
     border-bottom: 0.0625rem solid #000000;
   }
 
+  .mobileContainer > img {
+    justify-self: center;
+  }
+
   .mobileHeaderButton {
     background: #D9EAF2;
     border: 0.0625rem solid #000000;
     border-radius: 0.5rem;
     font-size: 1.5rem;
     padding: 0.5rem 1rem;
+    width: max-content;
+  }
+
+  .mobileHeaderButton:last-child {
+    justify-self: right;
   }
 }
