@@ -6,6 +6,7 @@ import MainTheme from '../components/MainTheme';
 import Regulation from '../components/Regulation';
 import AwardAndSelection from '../components/AwardAndSelection';
 import Divider from '../components/Divider';
+import Sharer from '../components/Sharer';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Regulation />
       <AwardAndSelection />
       <Divider />
+      <Sharer />
     </div>
   )
 }
