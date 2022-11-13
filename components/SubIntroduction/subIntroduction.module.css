@@ -29,4 +29,8 @@
     justify-content: center;
     margin-top: 2rem;
   }
+
+  .title {
+    font-size: 1.5rem;
+  }
 }
