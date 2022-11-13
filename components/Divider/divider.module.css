@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  width: 100vw;
+  overflow: hidden;
+  margin: 9.375rem 0rem;
+}
+
+.logo {
+  margin: 0 1rem;
+}
