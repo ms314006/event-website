@@ -9,17 +9,6 @@
   position: absolute;
 }
 
-.skillIcon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 4.3125rem;
-  height: 4.3125rem;
-  border: 0.0625rem solid #6b6b6b;
-  border-radius: 0.5rem;
-  background: #ffffff;
-}
-
 .eventRecords {
   display: flex;
   justify-content: space-around;
