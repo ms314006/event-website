@@ -1,8 +1,13 @@
-import Image from 'next/image'
-import Shade from '../Shaded';
 import styles from './skillIconWrap.module.css'
 
-export default function SkillIconWrap({ children, backgroundColor, border, position }) {
+export default function SkillIconWrap({
+    children,
+    backgroundColor,
+    border,
+    width = '4.3125rem',
+    height = '4.3125rem',
+    position,
+}) {
   return (
     <div
       className={styles.skillIconWrap}
@@ -10,6 +15,8 @@ export default function SkillIconWrap({ children, backgroundColor, border, posit
         background: backgroundColor,
         borderWidth: border ? '0.0625rem' : '0rem',
         position: Boolean(position) ? 'absolute' : 'static',
+        height,
+        width,
         ...position,
       }}
     >
