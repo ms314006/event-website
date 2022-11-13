@@ -5,6 +5,7 @@ import styles from './divider.module.css'
 export default function Divider() {
   const [windowWidth, setWindowWidth] = useState(0);
   useEffect(() => {
+    setWindowWidth(window.screen.width);
     const resize = window.addEventListener(
       'resize',
       ({ target: { screen: { width } } }) => { setWindowWidth(width); }
