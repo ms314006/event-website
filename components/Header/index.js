@@ -32,8 +32,8 @@ export default function Header() {
             src="./assets/menu.png"
             alt="Logo"
             className={styles.logo}
-            width={16}
-            height={16}
+            width={20}
+            height={20}
           />
         </button>
         <Image

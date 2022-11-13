@@ -7,7 +7,7 @@ export default function Apply() {
     <div className={styles.container}>
       <Shaded
         type="button"
-        width="28rem"
+        width="24rem"
         contentPadding="6rem"
         shadowTop="1rem"
       >

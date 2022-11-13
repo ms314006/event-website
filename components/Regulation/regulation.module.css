@@ -91,7 +91,7 @@
 @media all and (max-width: 800px) {
   .container {
     width: 60vw;
-    height: 80rem;
+    height: 90rem;
   }
 
   .title {
@@ -107,6 +107,7 @@
   .stepContent {
     width: 60vw;
     margin: 1.5rem 0rem;
+    padding: 0 1rem;
   }
 
   .summary {
