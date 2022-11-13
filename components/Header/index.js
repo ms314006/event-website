@@ -22,7 +22,7 @@ export default function Header() {
         <Shaded type="button" customStyles={{ marginRight: 16 }}>
           註冊報名
         </Shaded>
-        <Shaded>登入</Shaded>
+        <Shaded type="button">登入</Shaded>
       </div>
     </div>
   )
