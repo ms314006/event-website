@@ -8,3 +8,9 @@
 .logo {
   margin: 0 1rem;
 }
+
+@media all and (max-width: 1100px) {
+  .container {
+    margin-bottom: 4.375rem;
+  }
+}
