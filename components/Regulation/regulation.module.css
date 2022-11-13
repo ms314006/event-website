@@ -88,7 +88,7 @@
   margin-right: 0.5rem;
 }
 
-@media all and (max-width: 1100px) {
+@media all and (max-width: 800px) {
   .container {
     width: 60vw;
     height: 80rem;
