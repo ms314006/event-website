@@ -1,0 +1,7 @@
+.factoryCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+  border-radius: 1.25rem;
+}

@@ -1,0 +1,52 @@
+.themeCard {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-width: 1rem;
+  border-style: solid;
+  border-radius: 1.25rem;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.bottom,
+.top {
+  display: flex;
+  justify-content: center;
+  width: 6.5rem;
+  height: 6.5rem;
+  border-radius: 50%;
+  position: absolute;
+  color: #ffffff;
+  font-size: 0.75rem;
+}
+
+.top {
+  padding-top: 3.25rem;
+  top: -3.25rem;
+}
+
+.bottom {
+  padding-top: 2rem;
+  bottom: -3.25rem;
+}
+
+.title {
+  font-size: 0.9375rem;
+}
+
+.hashTag {
+  font-size: 0.75rem;
+  margin: 0.75rem 0;
+}
+
+.detailButton {
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  padding: 0.5rem;
+  color: #6B6B6B;
+  margin-top: 1.125rem;
+}

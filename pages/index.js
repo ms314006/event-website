@@ -2,6 +2,7 @@ import Header from '../components/Header';
 import Introduction from '../components/Introduction';
 import SubIntroduction from '../components/SubIntroduction';
 import FriendlyBanner from '../components/FriendlyBanner';
+import MainTheme from '../components/MainTheme';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <Introduction />
       <SubIntroduction />
       <FriendlyBanner />
+      <MainTheme />
     </div>
   )
 }

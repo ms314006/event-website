@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50rem;
+  height: 60rem;
+  margin: 11.25rem auto 7.5rem auto;
+}
+
+.title {
+  font-size: 2.25rem;
+}
+
+.subTitle {
+  background: #D9D9D9;
+  margin: 2.815rem 0rem;
+}
+
+.factories {
+  display: grid;
+  grid-template-columns: repeat(3, 17rem);
+  grid-template-rows: repeat(2, 23rem);
+  grid-gap: 1.2rem;
+}
